@@ -1,0 +1,12 @@
+[Unit]
+Description=irpi camera stream (MediaMTX)
+After=network.target
+
+[Service]
+User=__USER__
+WorkingDirectory=__DIR__
+ExecStart=__DIR__/mediamtx
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

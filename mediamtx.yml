@@ -1,0 +1,6 @@
+paths:
+  cam:
+    source: rpiCamera
+    rpiCameraWidth: 1296
+    rpiCameraHeight: 972
+    rpiCameraMode: 1296:972:10:P
